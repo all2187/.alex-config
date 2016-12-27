@@ -32,3 +32,4 @@ To use:
    Commands:
         git config --global user.name "Your full name"
         git config --global user.email yourEmail@domain.end
+        git config --global color.ui auto
