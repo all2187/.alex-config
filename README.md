@@ -1,2 +1,3 @@
-# config
+# .alex-config
 Linux configuration files
+
