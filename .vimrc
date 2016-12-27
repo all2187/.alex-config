@@ -32,12 +32,6 @@ endif
 " always set autoindenting on
 set autoindent
 
-" Add optional packages.
-"
-" The matchit plugin makes the % command work better, but it is not backwards
-" compatible.
-packadd matchit
-
 
 
 
