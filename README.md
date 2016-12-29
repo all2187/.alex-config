@@ -5,8 +5,10 @@ These are the files I use to configure new linux environments.
 
 To use:
 
-1) Go on new machine and git clone this directory with the command:  
-        git clone https://github.com/all2187/.alex-config
+1) Go on new machine and git clone this repository in your home directory.  
+   You can do this with the following commands:  
+        cd ~  
+        git clone https://github.com/all2187/.alex-config  
 
 2) Run the following commands to setup the new environment:  
         cd ~  
