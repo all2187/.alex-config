@@ -74,3 +74,7 @@ autocmd FileType make setlocal noexpandtab
 set backupdir^=~/.backup
 set dir^=~/.backup//
 set ignorecase
+
+if &term == "linux"
+    set t_ve+=[?81;0;112c
+endif
