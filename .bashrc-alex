@@ -40,7 +40,9 @@ echo -en "\e]PFFFFFFF" #white
 clear #for background artifacting
 
 # set the default text color.
-echo -en "\e[1;32;40m\e[8]"
+if [ "$TERM" == "linux" ]; then
+    echo -en "\e[1;32;40m\e[8]"
+fi
 
 # http://linuxgazette.net/137/anonymous.html
 cursor_style_default=0 # hardware cursor (blinking)
@@ -92,7 +94,7 @@ PS1="${prompt_ps1} \[${cursor_styles}\]"
 
 
 # show "[hh:mm] user@host:pwd" in xterm title bar
-if [ "$TERM_PROGRAM" = "Apple_Terminal" ]; then
+if [ "$TERM_PROGRAM" == "Apple_Terminal" ]; then
     # for Mac Terminal, omit "User@Users-MacBook-Air"
     # and preserve PROMPT_COMMAND set by /etc/bashrc.
     show_what_in_title_bar='"[$(date +%H:%M)] ${PWD/#$HOME/~}"'
