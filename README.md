@@ -1,7 +1,6 @@
 # .alex-config
 My Linux configuration files
 
-----------
 
 These are the files I use to configure new linux environments.
 
