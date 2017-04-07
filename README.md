@@ -24,13 +24,15 @@ Run the following commands to setup the new environment:
 ```
 cd ~  
 rm -f .vimrc  
+rm -f .gvimrc  
 rm -f .bashrc  
 ln -s .alex-config/.vimrc .vimrc  
+ln -s .alex-config/.gvimrc .gvimrc  
 ln -s .alex-config/.bashrc .bashrc  
 mkdir -p .backup  
 ```
 
-Note that this will overwrite any previous .vimrc or .bashrc
+Note that this will overwrite any previous .vimrc, .gvimrc, or .bashrc
 
 Also a .backup folder will be made if one didn't previously exist, then whether or not such a folder previously existed, it will be used to store from vim.
 
