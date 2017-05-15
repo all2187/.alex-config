@@ -55,3 +55,20 @@ git config --global user.name "Your full name"
 git config --global user.email yourEmail@domain.end  
 git config --global color.ui auto  
 ```
+
+## Palette colors I like for terminal
+Text color:             00FF00
+
+Background color:       000000
+
+Palette colors:
+------ | ------ | ------ | ------ | ------ | ------ | ------ | ------
+000000 | 800000 | 008000 | 808000 | 000080 | 800080 | 008080 | C0C0C0
+808080 | FF0000 | 00FF00 | FFFF00 | 0000FF | FF00FF | 00FFFF | FFFFFF
+
+
+
+
+
+
+
