@@ -141,3 +141,4 @@ alias gccg='gcc -g -Wall'
 alias g++g='g++ -g -Wall'
 alias valgrindlc='valgrind --leak-check=yes'
 
+LS_COLORS=$LS_COLORS:'ex=1;35:' ; export LS_COLORS
